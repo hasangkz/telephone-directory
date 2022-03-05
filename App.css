@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+* {
+  box-sizing: border-box;
+}
+
+input {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+}
+button {
+  transition: background-color 1.2s;
+  margin-top: 2rem;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+}
+#container {
+  width: 600px;
+  padding: 20px;
+  background-color: grey;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: rgb(90, 171, 218);
+  color: white;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list {
+  margin: 20px 0;
+}
+.list > li {
+  background-color: antiquewhite;
+  padding: 5px;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.delete {
+  padding: 5px;
+  width: 20px;
+  height: 24px;
+  background-color: antiquewhite;
+  color: red;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 100%;
+}
+.edit span {
+  margin-left: 50px;
+  font-size: 17px;
+  cursor: pointer;
+  text-decoration: none;
+}
